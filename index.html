@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Document</title>
+</head>
+<body id="home">
+    <div align = "center">
+        <div id = "contain"align="center">
+            
+            <div class="container">
+                
+            <div class="carousel-box">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="hae.png" alt="Haerin" id="hae"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hanni.png" alt="Hanni" id="han"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="minji.png" alt="Minji" id="min"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="hyein.png" alt="Hyein" id="hye"/>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="dani.png" alt="Dani" id="dan"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video-container">
+        <video id="background-video" autoplay loop>
+            <source src="idlebg.mp4" type="video/mp4"> <!-- Default empty video source -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <div id="photo">
+        <img src="logo.png" alt="" class="src" id="img">
+    </div>
+    <div id="photo2">
+        <div class="banner" id="banner0"></div>
+        <div class="banner" id="banner1"><h1 class="text1">HAERIN</h1></div>
+        <div class="banner" id="banner2"><h1 class="text1">HANNI</h1></div>
+        <div class="banner" id="banner3"><h1 class="text1">MINJI</h1></div>
+        <div class="banner" id="banner4"><h1 class="text1">HYEIN</h1></div>
+        <div class="banner" id="banner5"><h1 class="text2">DANIELLE</h1></div>
+    </div>
+   
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+    </script>
+    <script src="script1.js"></script>
+   
+</body>
+</html>
